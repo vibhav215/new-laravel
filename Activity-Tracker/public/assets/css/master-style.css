@@ -1,0 +1,187 @@
+/* Style for nav bar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand .logo {
+    width: 70px; 
+    height: 40px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin-left: 32%;
+}
+
+/* Custom styles for the navbar links */
+.nav-link {
+    font-size: 18px;
+    color: #fff !important;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Footer Styles */
+/* General Styles */
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h5 {
+    margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767.98px) {
+    .text-md-left {
+        text-align: center !important;
+    }
+    .text-md-right {
+        text-align: center !important;
+    }
+    .mb-md-0 {
+        margin-bottom: 20px !important;
+    }
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-inline-item:last-child {
+    margin-right: 0;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Icon Styles */
+.fab {
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+
+.fab:hover {
+    color: #ddd;
+}
+
+/* Utility Classes */
+.py-4 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-md-left {
+    text-align: left !important;
+}
+
+.text-md-right {
+    text-align: right !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-md-0 {
+    margin-bottom: 0 !important;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Style for second nav bar */
+nav {
+    background-color: #333; /* Background color for the navigation bar */
+    padding: 10px 0; /* Padding for the navigation bar */
+}
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align the list items */
+}
+nav li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Space between list items */
+}
+nav li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Make text bold */
+}
+nav li a:hover {
+    color: #007bff; /* Change text color on hover */
+}
+.navbar-nav .nav-link.active {
+    text-decoration: underline overline;
+}
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+    }
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

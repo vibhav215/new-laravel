@@ -1,0 +1,1 @@
+<h1> Welcome to Gallery Page</h1>
